@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CD80C4E183B4B4B00F2532F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD80C4D183B4B4B00F2532F /* Cocoa.framework */; };
+		2CD80C5A183B4B4B00F2532F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD80C59183B4B4B00F2532F /* main.m */; };
+		2CD80C5E183B4B4B00F2532F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2CD80C5C183B4B4B00F2532F /* Credits.rtf */; };
+		2CD80C61183B4B4B00F2532F /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD80C60183B4B4B00F2532F /* STAppDelegate.m */; };
+		2CD80C64183B4B4B00F2532F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD80C62183B4B4B00F2532F /* MainMenu.xib */; };
+		2CD80C66183B4B4B00F2532F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD80C65183B4B4B00F2532F /* Images.xcassets */; };
+		2CD80C83183B4BBC00F2532F /* HipChatOSXApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD80C82183B4BBC00F2532F /* HipChatOSXApp.m */; };
+		2CD80C89183B4C8600F2532F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD80C4D183B4B4B00F2532F /* Cocoa.framework */; };
+		2CD80C8F183B4C8600F2532F /* STHipChatStatusUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD80C8E183B4C8600F2532F /* STHipChatStatusUpdater.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CD80C4A183B4B4B00F2532F /* STFakeHipChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STFakeHipChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD80C4D183B4B4B00F2532F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2CD80C50183B4B4B00F2532F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2CD80C51183B4B4B00F2532F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2CD80C52183B4B4B00F2532F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CD80C55183B4B4B00F2532F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD80C59183B4B4B00F2532F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CD80C5D183B4B4B00F2532F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2CD80C5F183B4B4B00F2532F /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
+		2CD80C60183B4B4B00F2532F /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		2CD80C63183B4B4B00F2532F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2CD80C65183B4B4B00F2532F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CD80C6C183B4B4B00F2532F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2CD80C81183B4BBC00F2532F /* HipChatOSXApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HipChatOSXApp.h; sourceTree = "<group>"; };
+		2CD80C82183B4BBC00F2532F /* HipChatOSXApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HipChatOSXApp.m; sourceTree = "<group>"; };
+		2CD80C88183B4C8600F2532F /* STHipChatStatusUpdater.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = STHipChatStatusUpdater.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD80C8D183B4C8600F2532F /* STHipChatStatusUpdater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STHipChatStatusUpdater.h; sourceTree = "<group>"; };
+		2CD80C8E183B4C8600F2532F /* STHipChatStatusUpdater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STHipChatStatusUpdater.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CD80C47183B4B4B00F2532F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD80C4E183B4B4B00F2532F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD80C85183B4C8600F2532F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD80C89183B4C8600F2532F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD80C41183B4B4B00F2532F = {
+			isa = PBXGroup;
+			children = (
+				2CD80C8A183B4C8600F2532F /* STHipChatStatusUpdater */,
+				2CD80C53183B4B4B00F2532F /* STFakeHipChat */,
+				2CD80C4C183B4B4B00F2532F /* Frameworks */,
+				2CD80C4B183B4B4B00F2532F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CD80C4B183B4B4B00F2532F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CD80C4A183B4B4B00F2532F /* STFakeHipChat.app */,
+				2CD80C88183B4C8600F2532F /* STHipChatStatusUpdater.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CD80C4C183B4B4B00F2532F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD80C4D183B4B4B00F2532F /* Cocoa.framework */,
+				2CD80C6C183B4B4B00F2532F /* XCTest.framework */,
+				2CD80C4F183B4B4B00F2532F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CD80C4F183B4B4B00F2532F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD80C50183B4B4B00F2532F /* AppKit.framework */,
+				2CD80C51183B4B4B00F2532F /* CoreData.framework */,
+				2CD80C52183B4B4B00F2532F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2CD80C53183B4B4B00F2532F /* STFakeHipChat */ = {
+			isa = PBXGroup;
+			children = (
+				2CD80C55183B4B4B00F2532F /* Info.plist */,
+				2CD80C59183B4B4B00F2532F /* main.m */,
+				2CD80C5F183B4B4B00F2532F /* STAppDelegate.h */,
+				2CD80C60183B4B4B00F2532F /* STAppDelegate.m */,
+				2CD80C62183B4B4B00F2532F /* MainMenu.xib */,
+				2CD80C5C183B4B4B00F2532F /* Credits.rtf */,
+				2CD80C65183B4B4B00F2532F /* Images.xcassets */,
+				2CD80C81183B4BBC00F2532F /* HipChatOSXApp.h */,
+				2CD80C82183B4BBC00F2532F /* HipChatOSXApp.m */,
+			);
+			path = STFakeHipChat;
+			sourceTree = "<group>";
+		};
+		2CD80C8A183B4C8600F2532F /* STHipChatStatusUpdater */ = {
+			isa = PBXGroup;
+			children = (
+				2CD80C8D183B4C8600F2532F /* STHipChatStatusUpdater.h */,
+				2CD80C8E183B4C8600F2532F /* STHipChatStatusUpdater.m */,
+			);
+			path = STHipChatStatusUpdater;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CD80C86183B4C8600F2532F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2CD80C49183B4B4B00F2532F /* STFakeHipChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD80C7B183B4B4B00F2532F /* Build configuration list for PBXNativeTarget "STFakeHipChat" */;
+			buildPhases = (
+				2CD80C46183B4B4B00F2532F /* Sources */,
+				2CD80C47183B4B4B00F2532F /* Frameworks */,
+				2CD80C48183B4B4B00F2532F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STFakeHipChat;
+			productName = STFakeHipChat;
+			productReference = 2CD80C4A183B4B4B00F2532F /* STFakeHipChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CD80C87183B4C8600F2532F /* STHipChatStatusUpdater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD80CA2183B4C8700F2532F /* Build configuration list for PBXNativeTarget "STHipChatStatusUpdater" */;
+			buildPhases = (
+				2CD80C84183B4C8600F2532F /* Sources */,
+				2CD80C85183B4C8600F2532F /* Frameworks */,
+				2CD80C86183B4C8600F2532F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STHipChatStatusUpdater;
+			productName = STHipChatStatusUpdater;
+			productReference = 2CD80C88183B4C8600F2532F /* STHipChatStatusUpdater.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CD80C42183B4B4B00F2532F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Scott Talbot";
+			};
+			buildConfigurationList = 2CD80C45183B4B4B00F2532F /* Build configuration list for PBXProject "STHipChatStatusUpdater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CD80C41183B4B4B00F2532F;
+			productRefGroup = 2CD80C4B183B4B4B00F2532F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CD80C87183B4C8600F2532F /* STHipChatStatusUpdater */,
+				2CD80C49183B4B4B00F2532F /* STFakeHipChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CD80C48183B4B4B00F2532F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD80C66183B4B4B00F2532F /* Images.xcassets in Resources */,
+				2CD80C5E183B4B4B00F2532F /* Credits.rtf in Resources */,
+				2CD80C64183B4B4B00F2532F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD80C46183B4B4B00F2532F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD80C5A183B4B4B00F2532F /* main.m in Sources */,
+				2CD80C83183B4BBC00F2532F /* HipChatOSXApp.m in Sources */,
+				2CD80C61183B4B4B00F2532F /* STAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD80C84183B4C8600F2532F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD80C8F183B4C8600F2532F /* STHipChatStatusUpdater.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CD80C5C183B4B4B00F2532F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD80C5D183B4B4B00F2532F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2CD80C62183B4B4B00F2532F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD80C63183B4B4B00F2532F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CD80C79183B4B4B00F2532F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2CD80C7A183B4B4B00F2532F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2CD80C7C183B4B4B00F2532F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/STFakeHipChat/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CD80C7D183B4B4B00F2532F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/STFakeHipChat/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2CD80CA3183B4C8700F2532F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CD80CA4183B4C8700F2532F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CD80C45183B4B4B00F2532F /* Build configuration list for PBXProject "STHipChatStatusUpdater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD80C79183B4B4B00F2532F /* Debug */,
+				2CD80C7A183B4B4B00F2532F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD80C7B183B4B4B00F2532F /* Build configuration list for PBXNativeTarget "STFakeHipChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD80C7C183B4B4B00F2532F /* Debug */,
+				2CD80C7D183B4B4B00F2532F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CD80CA2183B4C8700F2532F /* Build configuration list for PBXNativeTarget "STHipChatStatusUpdater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD80CA3183B4C8700F2532F /* Debug */,
+				2CD80CA4183B4C8700F2532F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CD80C42183B4B4B00F2532F /* Project object */;
+}
